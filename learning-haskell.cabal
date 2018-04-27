@@ -18,3 +18,11 @@ library
   build-depends:       base >=4.10 && <4.11
   hs-source-dirs:      src
   default-language:    Haskell2010
+
+test-suite Mathematics
+  type:                exitcode-stdio-1.0
+  main-is:             test-mathematics.hs
+  hs-source-dirs:      src, test
+  build-depends:       base
+  other-modules:       Mathematics
+  default-language:    Haskell2010
