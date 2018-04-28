@@ -1,4 +1,4 @@
-# Learning Haskell
+# Learning Haskell [![Build Status][travis-img]][travis]
 
 Hey, I'm learning Haskell using the beginner's guide [Learn You a Haskell][1].
 The guide is really great for beginners, give it a try. As for this repo, it
@@ -22,3 +22,5 @@ preferred Haskell script in terminal through GHCi, e.g. `factorial`:
 [1]: http://learnyouahaskell.com
 [factorial]: https://en.wikipedia.org/wiki/Factorial
 [catalan]: https://en.wikipedia.org/wiki/Catalan_number
+[travis]: https://travis-ci.org/mincong-h/learning-haskell
+[travis-img]: https://travis-ci.org/mincong-h/learning-haskell.svg?branch=master
